@@ -14,13 +14,13 @@
 		6092EF0E1914744700F048A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092EF0D1914744700F048A3 /* main.m */; };
 		6092EF121914744700F048A3 /* FBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092EF111914744700F048A3 /* FBAppDelegate.m */; };
 		6092EF151914744700F048A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6092EF131914744700F048A3 /* Main.storyboard */; };
-		6092EF181914744700F048A3 /* FBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092EF171914744700F048A3 /* FBViewController.m */; };
 		6092EF1A1914744700F048A3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6092EF191914744700F048A3 /* Images.xcassets */; };
 		6092EF211914744700F048A3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092EF201914744700F048A3 /* XCTest.framework */; };
 		6092EF221914744700F048A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092EF011914744700F048A3 /* Foundation.framework */; };
 		6092EF231914744700F048A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6092EF051914744700F048A3 /* UIKit.framework */; };
 		6092EF2B1914744700F048A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6092EF291914744700F048A3 /* InfoPlist.strings */; };
 		6092EF2D1914744700F048A3 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092EF2C1914744700F048A3 /* UITableViewController_Challenge_SolutionTests.m */; };
+		6092EF381914749900F048A3 /* FBTVChallengeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6092EF371914749900F048A3 /* FBTVChallengeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		6092EF101914744700F048A3 /* FBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBAppDelegate.h; sourceTree = "<group>"; };
 		6092EF111914744700F048A3 /* FBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBAppDelegate.m; sourceTree = "<group>"; };
 		6092EF141914744700F048A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6092EF161914744700F048A3 /* FBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBViewController.h; sourceTree = "<group>"; };
-		6092EF171914744700F048A3 /* FBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBViewController.m; sourceTree = "<group>"; };
 		6092EF191914744700F048A3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6092EF1F1914744700F048A3 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6092EF201914744700F048A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6092EF281914744700F048A3 /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		6092EF2A1914744700F048A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6092EF2C1914744700F048A3 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		6092EF361914749900F048A3 /* FBTVChallengeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTVChallengeVC.h; sourceTree = "<group>"; };
+		6092EF371914749900F048A3 /* FBTVChallengeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTVChallengeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 			children = (
 				6092EF101914744700F048A3 /* FBAppDelegate.h */,
 				6092EF111914744700F048A3 /* FBAppDelegate.m */,
+				6092EF361914749900F048A3 /* FBTVChallengeVC.h */,
+				6092EF371914749900F048A3 /* FBTVChallengeVC.m */,
 				6092EF131914744700F048A3 /* Main.storyboard */,
-				6092EF161914744700F048A3 /* FBViewController.h */,
-				6092EF171914744700F048A3 /* FBViewController.m */,
 				6092EF191914744700F048A3 /* Images.xcassets */,
 				6092EF081914744700F048A3 /* Supporting Files */,
 			);
@@ -250,9 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6092EF381914749900F048A3 /* FBTVChallengeVC.m in Sources */,
 				6092EF121914744700F048A3 /* FBAppDelegate.m in Sources */,
 				6092EF0E1914744700F048A3 /* main.m in Sources */,
-				6092EF181914744700F048A3 /* FBViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
